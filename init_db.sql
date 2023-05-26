@@ -15,7 +15,8 @@ CREATE TABLE project(
 	id INT PRIMARY KEY AUTO_INCREMENT,
 	start_date DATE NOT NULL,
 	finish_date DATE NOT NULL,
-        client_id BIGINT NOT NULL
+        client_id BIGINT NOT NULL,
+	name VARCHAR(1000)
 );
 
 ALTER TABLE project 
